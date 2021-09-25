@@ -2,7 +2,6 @@
 numero_de_pessoas = (int(input
 	('Digite o número de pessoas que estão na sala nesse exato momento:\n')))
 
-
 def calcula_aniversario(n):
 	chance = (1/365) ** n
 	for fatorial in range((366 - n), 366):
